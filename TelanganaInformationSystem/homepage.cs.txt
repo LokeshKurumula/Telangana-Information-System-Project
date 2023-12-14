@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+namespace Ts
+{
+ public partial class Home : Form
+ {
+ public Home()
+ {
+ InitializeComponent();
+ }
+ private void Form1_Load(object sender, EventArgs e)
+ {
+ 
+ }
+ private void aboutUsToolStripMenuItem_Click(object sender, EventArgs e)
+ {
+ About a = new About();
+ a.ShowDialog();
+ }
+ private void generalInformationToolStripMenuItem_Click(object sender, EventArgs e)
+ {
+ general g = new general();
+ g.ShowDialog();
+ }
+ private void contactUsToolStripMenuItem_Click(object sender, EventArgs e)
+ {
+ Contact c = new Contact();
+ c.ShowDialog();
+ }
+ 
+ }
+}

@@ -1,0 +1,141 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.IO;
+using System.Windows.Forms;
+using System.Net;
+namespace Ts
+{
+ public partial class general : Form
+ {
+ public general()
+ {
+ InitializeComponent();
+ }
+ private void general_Load(object sender, EventArgs e)
+ {
+ }
+ private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+ {
+ linkLabel1.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/suma/Adilabad District.docx",IsRestrictedWindow.ToString());
+ 
+ }
+ 
+ private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+ {
+ linkLabel3.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/suma/Komaram.docx", IsRestrictedWindow.ToString());
+ }
+ 
+ private void linkLabel23_LinkClicked(object sender, LinkLabelLinkClickedEventArgs
+e)
+ {
+ linkLabel24.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/suma/Yadadri Bhuvanagiri dristrict.docx", IsRestrictedWindow.ToString());
+ }
+ private void linkLabel24_LinkClicked(object sender, LinkLabelLinkClickedEventArgs
+e)
+ {
+ linkLabel24.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/suma/Yadadri Bhuvanagiri dristrict.docx", IsRestrictedWindow.ToString());
+ }
+ 
+ private void linkLabel26_LinkClicked(object sender, LinkLabelLinkClickedEventArgs
+e)
+ {
+ linkLabel26.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM-06/Bhadradri 
+Kothagudem District.docx", IsRestrictedWindow.ToString());
+ 
+ }
+ private void linkLabel8_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+ {
+ linkLabel8.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/project/Jagitial District.docx", IsRestrictedWindow.ToString());
+ 
+ }
+ private void linkLabel21_LinkClicked(object sender, LinkLabelLinkClickedEventArgs
+e)
+ {
+ linkLabel21.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/project/Hyderabad District.docx", IsRestrictedWindow.ToString());
+ 
+ }
+ private void linkLabel13_LinkClicked(object sender, LinkLabelLinkClickedEventArgs
+e)
+ {
+ linkLabel13.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/project/Jayashankar Bhupalpally district.docx", IsRestrictedWindow.ToString());
+ }
+ private void linkLabel12_LinkClicked(object sender, LinkLabelLinkClickedEventArgs
+e)
+ {
+ linkLabel12.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/project/Karimnagar District.docx", IsRestrictedWindow.ToString());
+ }
+ private void linkLabel15_LinkClicked(object sender, LinkLabelLinkClickedEventArgs
+e)
+ {
+ linkLabel15.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/project/Siddipet District.docx", IsRestrictedWindow.ToString());
+ }
+ private void linkLabel11_LinkClicked(object sender, LinkLabelLinkClickedEventArgs
+e)
+ {
+ linkLabel11.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/project/Rajanna Sircilla District.docx", IsRestrictedWindow.ToString());
+ }
+ private void linkLabel27_LinkClicked(object sender, LinkLabelLinkClickedEventArgs
+e)
+ {
+ linkLabel27.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/project/Vikarabad District.docx", IsRestrictedWindow.ToString());
+ }
+ private void linkLabel10_LinkClicked(object sender, LinkLabelLinkClickedEventArgs
+e)
+ {
+ linkLabel10.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/suma/kmr.docx", IsRestrictedWindow.ToString());
+ }
+ private void linkLabel25_LinkClicked(object sender, LinkLabelLinkClickedEventArgs
+e)
+ {
+ linkLabel25.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/suma/Mahabubabad.docx", IsRestrictedWindow.ToString());
+ }
+ private void linkLabel16_LinkClicked(object sender, LinkLabelLinkClickedEventArgs
+e)
+ {
+ linkLabel16.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/suma/Hanmakonda.docx", IsRestrictedWindow.ToString());
+ }
+ private void linkLabel17_LinkClicked(object sender, LinkLabelLinkClickedEventArgs
+e)
+ {
+ linkLabel17.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/suma/warangal rural.docx", IsRestrictedWindow.ToString());
+ }
+ 
+ private void linkLabel20_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+ {
+ linkLabel20.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/suma/Medchal.docx", IsRestrictedWindow.ToString());
+ }
+ private void linkLabel7_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+ {
+ linkLabel7.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/suma/nizamabad.docx", IsRestrictedWindow.ToString());
+ }
+ private void linkLabel14_LinkClicked(object sender, LinkLabelLinkClickedEventArgs
+e)
+ {
+ linkLabel14.LinkVisited = true;
+ System.Diagnostics.Process.Start("C:/Users/admin/Desktop/19069-CM06/suma/Medak district.docx", IsRestrictedWindow.ToString());
+ }
+ }
+ }
